@@ -9,17 +9,17 @@ class Consent
     /**
      * The cookie or group we're defining a consent action for.
      */
-    protected Cookie|CookiesGroup $instance;
+    protected $instance;
 
     /**
      * The cookies that should be returned if not already defined.
      */
-    protected array $cookies = [];
+    protected $cookies = [];
 
     /**
      * The scripts that can be included in the page's head.
      */
-    protected array $scripts = [];
+    protected $scripts = [];
 
     /**
      * Create a new consent object for a specific cookie or cookies group.

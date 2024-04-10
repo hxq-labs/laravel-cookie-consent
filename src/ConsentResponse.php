@@ -11,17 +11,17 @@ class ConsentResponse
     /**
      * The cookies that should be attached to the actual HTTP response.
      */
-    protected array $cookies = [];
+    protected $cookies = [];
 
     /**
      * The scripts that can be included in the page's head markup.
      */
-    protected array $scripts = [];
+    protected $scripts = [];
 
     /**
      * The displayable notice HTML markup that should be appended to the page.
      */
-    protected ?string $notice = null;
+    protected $notice = null;
 
     /**
      * Transform the collected data into a JSON response-object.

@@ -13,7 +13,7 @@ class CookiesCategory
     /**
      * The category's identifier.
      */
-    protected string $key;
+    protected $key;
 
     /**
      * Create a new cookies category container instance.

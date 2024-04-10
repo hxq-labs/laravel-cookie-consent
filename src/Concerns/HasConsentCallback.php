@@ -11,7 +11,7 @@ trait HasConsentCallback
     /**
      * The callback that should be called when consent is given.
      */
-    protected ?Closure $callback = null;
+    protected $callback = null;
 
     /**
      * Set the cookie's consent callback.

@@ -7,7 +7,7 @@ trait HasAttributes
     /**
      * The displayable attributes.
      */
-    protected array $attributes = [];
+    protected $attributes = [];
 
     /**
      * Magically set an attribute.

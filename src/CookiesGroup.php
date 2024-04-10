@@ -10,7 +10,7 @@ class CookiesGroup
     /**
      * The group's name.
      */
-    public readonly string $name;
+    public $name;
 
     /**
      * Set the group's name.

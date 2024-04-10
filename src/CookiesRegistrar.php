@@ -11,7 +11,7 @@ class CookiesRegistrar
     /**
      * The registered cookies, mapped under consent-categories.
      */
-    protected array $categories = [];
+    protected $categories = [];
 
     /**
      * Access the pre-defined "essentials" consent-category.

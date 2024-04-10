@@ -11,7 +11,7 @@ trait HasCookies
     /**
      * The registered cookies.
      */
-    protected array $cookies = [];
+    protected $cookies = [];
 
     /**
      * Return all the defined cookies as a flat array.

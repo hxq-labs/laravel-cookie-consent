@@ -135,7 +135,7 @@
 
             &:hover,
             &:focus {
-                color: #7959EF;
+                color: #C1A284;
             }
         }
     }
@@ -233,7 +233,7 @@
     }
 
     &__category input:checked + .cookies__box:after {
-        background: #7959EF;
+        background: #C1A284;
         opacity: 1;
     }
 
@@ -260,14 +260,14 @@
 
     &__details {
         display: block;
-        color: #7959EF;
+        color: #C1A284;
         font-size: 0.875em;
         margin: 0.625em 0 0.9em;
         transition: color 200ms ease-out;
 
         &:hover,
         &:focus {
-            color: #7959EF;
+            color: #C1A284;
         }
     }
 
@@ -323,8 +323,8 @@
         font-size: 14px;
         font-weight: 600;
         color: #fff;
-        background: #7959EF;
-        border: 1px solid #7959EF;
+        background: #C1A284;
+        border: 1px solid #C1A284;
         border-radius: 4px;
         margin: 0;
         padding: 0.86em 1em;

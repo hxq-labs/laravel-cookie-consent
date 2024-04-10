@@ -10,12 +10,12 @@ class Cookie
     /**
      * The cookie's name.
      */
-    public readonly string $name;
+    public $name;
 
     /**
      * The cookie's duration.
      */
-    public readonly int $duration;
+    public $duration;
 
     /**
      * Set the cookie's name.
